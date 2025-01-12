@@ -1,0 +1,71 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+ <jnlp spec="6.0+" codebase="https://otjtme.github.io/jtme-web/" href="https://otjtme.github.io/jtme-web/JTME_Web_229.jnlp">
+ 	<information>
+		<title>JTME</title>
+		<vendor>OTJTMESoft</vendor>
+		<homepage href="https://otjtme.github.io/jtme-web/" />
+		<description kind="one-line">JTME MMO</description>
+		<description kind="short">JTME MMO</description>
+		<description kind="tooltip">JTME MMO</description>
+		<icon href="https://otjtme.github.io/jtme-web/Icon_small.png"/>
+		<icon kind="splash" href="https://otjtme.github.io/jtme-web/webclient_loading.gif" />
+        <icon kind="shortcut" href="https://otjtme.github.io/jtme-web/Icon_large.png" />
+        <shortcut online="true" install="true">
+            <desktop/>
+            <menu submenu="CipSoft GmbH">
+                <menu submenu="TibiaME"/>
+            </menu>     
+        </shortcut>
+	</information>
+	
+    <security> 
+		<all-permissions/> 
+	</security>
+	
+	<resources>
+    <j2se version="1.6+"/>
+    <jar href="tibiame_ng_web_229.jar" main="true" />
+	</resources>
+	 
+	<resources os="Windows" arch="i386 x86">
+	<nativelib href="tibiame_ng_web_229.win.jar" />
+	</resources>
+  
+    <resources os="Windows" arch="amd64 x86_64">
+	<nativelib href="tibiame_ng_web_229.win_x64.jar" />
+	</resources>
+  
+    <resources os="Linux" arch="i386 x86">
+    <nativelib href="tibiame_ng_web_229.linux.jar" />
+	</resources>
+  
+    <resources os="Linux" arch="amd64 x86_64">
+    <nativelib href="tibiame_ng_web_229.linux_x64.jar" />
+	</resources>
+ 
+    <resources os="Mac\ OS\ X" arch="x86_64">  
+    <nativelib href="tibiame_ng_web_229.macosx_x64.jar" />
+    </resources>  
+  
+	 <applet-desc 
+	     name="TibiaME"
+	     main-class="com.cipsoft.tibiame.TibiaMeApplet"
+	     width="640" height="360">
+		<param name="separate_jvm" value="true" />
+		<param name="terminalType" value="10" />
+		<param name="keyMethod" value="1" />
+		<param name="touchMethod" value="3" />
+		<param name="screenX" value="0" />
+		<param name="screenY" value="0" />
+        <param name="maxResolutionHeight" value="1024" />
+        <param name="maxAspectRatio" value="1.6" />
+		<param name="statusBarHeight" value="0" />
+		<param name="bottomBarHeight" value="0" />
+		<param name="statusBarHeightLandscape" value="0" />
+		<param name="bottomBarHeightLandscape" value="0" />
+    <param name="fyberOfferWallUrl" value="https://payments.cipsoft.com/tibiame/" />
+	 </applet-desc>
+     
+	<update check="always" policy="always"/>
+ </jnlp>
