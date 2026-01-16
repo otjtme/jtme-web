@@ -29,23 +29,23 @@
 	</resources>
 
 	<resources os="Windows" arch="i386 x86">
-	<nativelib href="tibiame_ng_web_241.win.jar" />
+	<nativelib href="tibiame_ng_web_241.win_debug.jar" />
 	</resources>
 
 	<resources os="Windows" arch="amd64 x86_64">
-	<nativelib href="tibiame_ng_web_241.win_x64.jar" />
+	<nativelib href="tibiame_ng_web_241.win_x64_debug.jar" />
 	</resources>
 
 	<resources os="Linux" arch="i386 x86">
-	<nativelib href="tibiame_ng_web_241.linux.jar" />
+	<nativelib href="tibiame_ng_web_241.linux_debug.jar" />
 	</resources>
 
 	<resources os="Linux" arch="amd64 x86_64">
-	<nativelib href="tibiame_ng_web_241.linux_x64.jar" />
+	<nativelib href="tibiame_ng_web_241.linux_x64_debug.jar" />
 	</resources>
 
 	<resources os="Mac\ OS\ X" arch="x86_64">
-	<nativelib href="tibiame_ng_web_241.macosx_x64.jar" />
+	<nativelib href="tibiame_ng_web_241.macosx_x64_debug.jar" />
 	</resources>
 
 	 <applet-desc 
