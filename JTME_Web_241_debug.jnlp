@@ -25,7 +25,7 @@
 
 	<resources>
 	<j2se version="1.6+"/>
-	<jar href="tibiame_ng_web_241.jar" main="true" />
+	<jar href="tibiame_ng_web_241_debug.jar" main="true" />
 	</resources>
 
 	<resources os="Windows" arch="i386 x86">
